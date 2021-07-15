@@ -4,6 +4,7 @@ BookList
 An application  built with React, Redux, JavaScript, and styled-components.
 
 ## Project Screen Shot
+![Alt text](https://github.com/igorelyiw/bookList/blob/master/src/components/assets/screenShot.png "Optional title")
 
 
 
@@ -13,18 +14,18 @@ Clone down this repository. You will need node and npm installed globally on you
 
 Installation:
 
-npm install
+-npm install
 
 To Start JSON-SERVER:
 
-npm run json:server
+-npm run json:server
 
 To Start Server:
 
-npm start
+-npm start
 
 To Visit App:
 
-localhost:3000/
+-localhost:3000/
 
 

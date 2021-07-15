@@ -14,6 +14,8 @@ text-align:center;
 const AddBookContainer = () => {
   const dispatch = useDispatch()
   let history = useHistory();
+  let id =  Math.floor(Math.random() * 100);
+
   const handleSubmit = (obj) => {
     dispatch(postBookThunk(obj))
     message.info('Successfully completed');
@@ -22,8 +24,7 @@ const AddBookContainer = () => {
   return (
     <Wrapper>
       <Title>Add a Book</Title>
-
-      <BookForm handleSubmit={(obj) => handleSubmit(obj)} />
+      <BookForm id={id} handleSubmit={(obj) => handleSubmit(obj)} />
     </Wrapper>
   )
 }

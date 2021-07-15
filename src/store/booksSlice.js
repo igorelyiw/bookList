@@ -18,6 +18,7 @@ export const deleteBookThunk = createAsyncThunk(
 export const postBookThunk = createAsyncThunk(
     'books/postBookThunk',
     async (obj) => {
+       
         const response = await booksAPI.postBook(obj)
         return response
     }
@@ -44,17 +45,12 @@ export const booksSlice = createSlice({
             state.booksList = state.booksList.filter(item => item.id !== action.meta.arg)
         },
         [postBookThunk.fulfilled]: (state, action) => {
-            console.log(action);
             state.booksList.push(action.meta.arg)
         },
         [updateBookThunk.fulfilled]: (state, action) => {
             let newElem = action.meta.arg.values
-            state.booksList.map(item => {
-                if (item.id == newElem.id) {
-                    return state.booksList.splice(item.id - 1, 1, { ...item, ...newElem })
-                }
-                return item
-            })
+            state.booksList = state.booksList.filter(item => item.id !== newElem.id)
+            state.booksList.push(newElem)
         },
     }
 })

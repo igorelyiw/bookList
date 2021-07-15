@@ -14,8 +14,6 @@ export const booksAPI = {
       });
   },
   postBook(obj) {
-    let id = Math.floor(Math.random() * 100);
-    obj = { ...obj, id }
     axios.post('http://localhost:3001/books', obj).catch(error => {
       console.log(error);
     });

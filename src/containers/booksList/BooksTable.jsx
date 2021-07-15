@@ -30,7 +30,7 @@ const BooksTable = props => {
       key: 'action',
       render: (text, record) => (
         <>
-          <NavLink to={'/editBook/' + record.id}><Button type="primary" >Edit</Button></NavLink>
+          <NavLink to={'/editBook/' + text.id}><Button type="primary" >Edit</Button></NavLink>
           <Button type="primary" danger onClick={() => deleteBook(record.id)}>Delete</Button>
         </>
       ),

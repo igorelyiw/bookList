@@ -4,50 +4,43 @@
       "title": "Strawberry Swing Hardback",
       "author": "Coldplay",
       "category": "Children's and Young Adult",
-      "ISBN": 9781529029918,
+      "ISBN": 97815290299188,
       "id": 1
     },
     {
-      "title": "Where Is My Mind",
+      "title": "Where Is My Mind!!!",
       "author": "Black Francis",
       "category": "Children's and Young Adult",
       "ISBN": 43242424,
-      "id": 3
+      "id": 2
     },
     {
       "title": "These Boots Are Made For Walkin",
       "author": "Lee Hazlewood",
       "category": "Travel",
       "ISBN": 3213131313,
-      "id": 4
+      "id": 3
     },
     {
       "title": "This Poison Heart",
       "author": "Kalynn Bayron",
       "category": "Travel",
       "ISBN": 9781526632791,
-      "id": 5
+      "id": 4
     },
     {
       "title": "Keep the Receipts",
       "author": "The Receipts Media Ltd",
       "category": "Travel",
       "ISBN": 9781472282576,
-      "id": 57
+      "id": 5
     },
     {
       "title": "I Follow You",
       "author": "Peter James",
       "category": "Picture Books",
       "ISBN": 97817864498296,
-      "id": 66
-    },
-    {
-      "title": "The Comfort Book",
-      "author": "Matt Haig",
-      "category": "Picture Books",
-      "ISBN": 9781786898296,
-      "id": 7
+      "id": 6
     }
   ]
 }

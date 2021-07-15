@@ -18,7 +18,6 @@ export const deleteBookThunk = createAsyncThunk(
 export const postBookThunk = createAsyncThunk(
     'books/postBookThunk',
     async (obj) => {
-       
         const response = await booksAPI.postBook(obj)
         return response
     }

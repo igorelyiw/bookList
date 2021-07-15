@@ -1,7 +1,7 @@
 # Project Name 
 BookList
 
-An application  built with React, Redux, JavaScript, and styled-components.
+An application  built with React, Redux, JavaScript,JSON-Server, and styled-components.
 
 ## Project Screen Shot
 ![Alt text](https://github.com/igorelyiw/bookList/blob/master/src/components/assets/screenShot.png "Optional title")

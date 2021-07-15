@@ -44,7 +44,7 @@ export const booksSlice = createSlice({
             state.booksList = state.booksList.filter(item => item.id !== action.meta.arg)
         },
         [postBookThunk.fulfilled]: (state, action) => {
-            console.log(action);
+           
             state.booksList.push(action.meta.arg)
         },
         [updateBookThunk.fulfilled]: (state, action) => {
